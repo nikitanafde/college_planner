@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<main>
+
+  <head>
+    <link href="style.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="veiwport" content="width=device-width, initial-scale=1.0">
+    <title> College Planner </title>
+  </head>
+  <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: lightblue;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: darkblue;
+      color: white;
+    }
+
+    .active {
+      background-color: darkblue;
+      color: white;
+    }
+
+    .flex-container {
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: column;
+    }
+
+    .flex-item-left {
+      //background-color: ;
+      padding: 10px;
+      flex: 50%;
+    }
+  </style>
+
+  <body>
+    <header> 
+      <div class="tab">
+        <ul>
+          <li>
+            <div class="tab" ;>
+              <a class="active" href="index.html">Home</a>
+            </div>
+          </li>
+
+          <li>
+            <div class="tab" ;>
+              <a href="volunteer.html">Volunteer Hours</a>
+            </div>
+          </li>
+
+          <li>
+            <div class="tab" ;>
+              <a href="highschool.html">High School Classes</a>
+            </div>
+          </li>
+
+          <li>
+            <div class="tab" ;>
+              <a href="collegelist.html">College List </a>
+            </div>
+          </li>
+        </ul>
+         <h1 class="volunteer" id="volunteer"> Volunteer Hours </h1>
+        <h3 class="alert1" onclick= "alert('This website is for you to be organized about your high school life and to help you decide what colleges you want to go to!')">About</button></h3>
+    </header>
+    <p> This page is going to help you record the amount of hours you have volunteered throughout high school</p>
+    <table class=hours >
+      <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+      </tr>
+      <tr>
+        <td>Alfreds Futterkiste</td>
+        <td>Maria Anders</td>
+        <td>Germany</td>
+      </tr>
+      <tr>
+        <td>Centro comercial Moctezuma</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+      </tr>
+    </table>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer class="develop">
+      <p>Developer: Nikita Nafde</p>
+      <a href="mailto:nikitanafde@gmail.com">nikitanafde@gmail.com</a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</main>
+
+</html>

@@ -1,0 +1,59 @@
+.gilda-display-regular {
+  font-family: "Gilda Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: ghostwhite;
+}
+
+.cp{
+  top:150px; 
+  font-size: 120px;
+  position: absolute;
+  left: 610px;
+}
+
+.web1 {
+  text-align: right;
+  margin-right:20px;
+  position: absolute;
+  right: 0px;
+  top: 350px;
+}
+
+.web2 {
+  text-align: right;
+  margin-right:20px;
+  position: absolute;
+  right: 0px;
+  top: 380px;
+}
+
+.cap{
+  width: 490px;
+  height: 450px;
+  position: absolute;
+  left: 60px;
+  top: 130px;
+}
+.develop{
+  text-align:left;
+  position: relative;
+  left: 5px;
+  bottom: 10px;
+}
+.alert1{
+  background-color: darkblue; 
+  border: none;
+  color: white;
+  padding: 12.9px 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  position: absolute;
+  right: 7px;
+  top: 5px;
+}

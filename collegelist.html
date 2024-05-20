@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<main>
+
+  <head>
+    <link href="style.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="veiwport" content="width=device-width, initial-scale=1.0">
+    <title> College Planner </title>
+
+  </head>
+  <style>
+    .Nav {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: lightblue;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: darkblue;
+      color: white;
+    }
+
+    .active {
+      background-color: darkblue;
+      color: white;
+    }
+  </style>
+
+  <body>
+    <header>
+      <div class="tab">
+        <ul class="Nav">
+          <li>
+            <div class="tab" ;>
+              <a class="active" href="/index.html">Home</a>
+            </div>
+          </li>
+
+          <li>
+            <div class="tab" ;>
+              <a href="/volunteer.html">Volunteer Hours</a>
+            </div>
+          </li>
+
+          <li>
+            <div class="tab" ;>
+              <a href="/highschool.html">High School Classes</a>
+            </div>
+          </li>
+
+          <li>
+            <div class="tab" ;>
+              <a href="/collegelist.html">College List </a>
+            </div>
+          </li>
+      </div>
+      </ul>
+      <h3 class="alert1" onclick= "alert('This website is for you to be organized about your high school life and to help you decide what colleges you want to go to!')">About</button></h3>
+    </header>
+     <h1 class="clist" id="clist"> College List </h1>
+    <p> What colleges are you interested in? </p>
+    <p> How many colleges are you interested in?</p>
+    <a href="https://www.niche.com/colleges/search/best-colleges/" 
+      target="_blank">Visit Niche to help you make a
+      list</a>
+ 
+    <ul class="college">
+      <li><input type="text" id="college1" name="college1"></li>
+      <br>
+      <br>
+      <li><input type="text" id="college2" name="college2"></li>
+      <br>
+      <br>
+      <li><input type="text" id="college3" name="college3"></li>
+      <br>
+      <br>
+      <li><input type="text" id="college4" name="college4"></li>
+      <br>
+      <br>
+      <li><input type="text" id="college5" name="college5"></li>
+      <br>
+      <br>
+      <li><input type="text" id="college6" name="college6"></li>
+      <br>
+      <br>
+      <li><input type="text" id="college7" name="college7"></li>
+      <br>
+      <br>
+      <li><input type="text" id="college8" name="college8"></li>
+      <br>
+      <br>
+      <li><input type="text" id="college9" name="college9"></li>
+      <br>
+      <br>
+      <li><input type="text" id="college10" name="college10"></li>
+    </ul>
+    <br>
+    <footer class="develop">
+      <p>Developer: Nikita Nafde</p>
+      <a href="mailto:nikitanafde@gmail.com">nikitanafde@gmail.com</a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</main>
+
+</html>

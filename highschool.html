@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<main>
+
+  <head>
+    <link href="style.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="veiwport" content="width=device-width, initial-scale=1.0">
+    <title> College Planner </title>
+
+  </head>
+  <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: lightblue;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: darkblue;
+      color: white;
+    }
+
+    .active {
+      background-color: darkblue;
+      color: white;
+    }
+
+    .flex-container {
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: column;
+    }
+
+    .flex-item-left {
+      //background-color: ;
+      padding: 10px;
+      flex: 50%;
+    }
+  </style>
+
+  <body>
+    <header>
+      <div class="tab">
+        <ul>
+          <li>
+            <div class="tab" ;>
+              <a class="active" href="/index.html">Home</a>
+            </div>
+          </li>
+
+          <li>
+            <div class="tab" ;>
+              <a href="volunteer.html">Volunteer Hours</a>
+            </div>
+          </li>
+
+          <li>
+            <div class="tab" ;>
+              <a href="highschool.html">High School Classes</a>
+            </div>
+          </li>
+
+          <li>
+            <div class="tab" ;>
+              <a href="collegelist.html">College List </a>
+            </div>
+          </li>
+        </ul>
+
+        <h3 class="alert1" onclick= "alert('This website is for you to be organized about your high school life and to help you decide what colleges you want to go to!')">About</button></h3>
+    </header>
+     <h1 class="hclasses" id="hclasses"> Page 2 </h1>
+    <p> Here, you can plan out your high school courses</p>
+    <button id="buttonG">Your Current Grade</button>
+    <h2 id="headingG"></h2>
+    <p> What classes do you wish to take in freshman, sophomore, junior, and senior year? </p>
+    <label for="grade1">Grade: </label>
+    <input type="text" id="grade1" name="grade1" placeholder="Grade 9">
+    <br>
+    <br>
+    <label for="freeform1">Classes you want to take</label>
+    <br>
+    <textarea id="freeform1" name="freeform1" rows="9" cols="150" placeholder="Period 1: Math 
+Period 2: English
+Period 3:
+Period 4:
+Period 5:
+Period 6:
+Period 7:
+Period 8:"></textarea>
+    <br>
+    <br>
+    <label for="grade1">Grade: </label>
+    <input type="text" id="grade2" name="grade2" placeholder="Grade 10">
+    <br>
+    <label for="freeform2">Classes you want to take or you have completed </label>
+    <br>
+    <textarea id="freeform2" name="freeform2" rows="9" cols="150" placeholder="Period 1: Math 
+Period 2: English
+Period 3:
+Period 4:
+Period 5:
+Period 6:
+Period 7:
+Period 8:"></textarea>
+    <br>
+    <br>
+    <label for="grade1">Grade: </label>
+    <input type="text" id="grade3" name="grade3" placeholder="Grade 11">
+    <br>
+    <label for="freeform3">Classes you want to take or you have completed</label>
+    <br>
+    <textarea id="freeform3" name="freeform3" rows="9" cols="150" placeholder="Period 1: Math 
+Period 2: English
+Period 3:
+Period 4:
+Period 5:
+Period 6:
+Period 7:
+Period 8:"></textarea>
+    <br>
+    <br>
+    <label for="grade4">Grade</label>
+    <input type="text" id="grade4" name="grade4" placeholder="Grade 12">
+    <br>
+    <label for="freeform4">Classes you want to take</label>
+    <br>
+    <textarea id="freeform4" name="freeform4" rows="9" cols="150" placeholder="Period 1: Math 
+Period 2: English
+Period 3:
+Period 4:
+Period 5:
+Period 6:
+Period 7:
+Period 8:"></textarea>
+    <footer class="develop">
+      <p>Developer: Nikita Nafde</p>
+      <a href="mailto:nikitanafde@gmail.com">nikitanafde@gmail.com</a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</main>
+
+</html>
