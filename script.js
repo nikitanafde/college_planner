@@ -1,6 +1,7 @@
 console.log ("Good Day!");
 
 let grade = 9;
+let AP = 7; 
 if (grade < 9) {
   console.log("You are too young to be in high school.");
 } else if (grade > 12) {
@@ -12,6 +13,9 @@ const totalyears = 4;
 
 let sum = grade + 1;
 console.log('Your grade next year', sum);
+
+if (AP >= 2 && AP <= 37) {
+console.log('Wow! You are really smart!'); }
 
 let header = document.getElementById ('hclasses');
 console.log(header); 
